@@ -7,8 +7,8 @@ Ephestos/Ephestos.image:
 	Ephestos/pharo Ephestos/Ephestos.image get ChronosManager
 	Ephestos/pharo Ephestos/Ephestos.image get GitFileTree
 	Ephestos/pharo Ephestos/Ephestos.image get CommandShell
-	Ephestos/pharo Ephestos/Ephestos.image eval --save FreeTypeFontProvider current updateFromSystem.
-	Ephestos/pharo Ephestos/Ephestos.image get Ephestos
+	#Ephestos/pharo Ephestos/Ephestos.image eval --save FreeTypeFontProvider current updateFromSystem.
+	#Ephestos/pharo Ephestos/Ephestos.image --no-default-preferences eval --save Metacello new baseline: 'Ephestos'; repository: 'github://kilon/Ephestos'; load
 
 
 clean:
