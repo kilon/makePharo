@@ -1,4 +1,4 @@
-put the make in a directory of your choice and use the CLI of your choice and just type "make".
+put the makefile in a directory of your choice and use the CLI of your choice and just type "make".
 
-startupPharo.st should go to the shared folder for startup Preferences, which is for
+startupPharo.st should go to the shared folder for pharo startup Preferences, which is for
 Linux: ~/.config/Pharo
