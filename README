@@ -2,3 +2,4 @@ put the makefile in a directory of your choice and use the CLI of your choice an
 
 startupPharo.st should go to the shared folder for pharo startup Preferences, which is for
 Linux: ~/.config/Pharo
+MacOS: ~/Library/Preferences/Pharo
