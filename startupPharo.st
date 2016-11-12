@@ -19,6 +19,9 @@ repository: 'github://kilon/Ephestos:master';load.
 UIManager default inform:'Installing Octopus. Please wait...'.  Metacello new baseline: 'Octopus' ;
 repository: 'github://kilon/Octopus:master';load.
 
+UIManager default inform:'Installing CPP. Please wait...'.Metacello new baseline: 'CPPBridge';
+repository: 'github://kilon/CPPBridge:master';load.
+
 UIManager default inform: 'All libraries have been installed, have a nice day :) '.
 
 NireasTheme installFullTheme .  "FreeTypeFontProvider current updateFromSystem."
