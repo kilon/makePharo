@@ -19,7 +19,7 @@ repository: 'github://kilon/Ephestos:master';load.
 UIManager default inform:'Installing Octopus. Please wait...'.  Metacello new baseline: 'Octopus' ;
 repository: 'github://kilon/Octopus:master';load.
 
-UIManager default inform:'Installing CPP. Please wait...'.Metacello new baseline: 'CPPBridge';
+UIManager default inform:'Installing CPP. Please wait...'.Metacello new baseline: 'CPP';
 repository: 'github://kilon/CPP:master';load.
 
 UIManager default inform: 'All libraries have been installed, have a nice day :) '.
