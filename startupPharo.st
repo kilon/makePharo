@@ -20,7 +20,7 @@ UIManager default inform:'Installing Octopus. Please wait...'.  Metacello new ba
 repository: 'github://kilon/Octopus:master';load.
 
 UIManager default inform:'Installing CPP. Please wait...'.Metacello new baseline: 'CPPBridge';
-repository: 'github://kilon/CPPBridge:master';load.
+repository: 'github://kilon/CPP:master';load.
 
 UIManager default inform: 'All libraries have been installed, have a nice day :) '.
 
@@ -28,7 +28,7 @@ NireasTheme installFullTheme .  "FreeTypeFontProvider current updateFromSystem."
 
 ChronosManager open.  ] runOnce: true.
 
-StartupAction name: 'Random Wallpaper' code: [|files path| path :='/Users/kilon/Pictures' asFileReference.
+StartupAction name: 'Random Wallpaper' code: [|files path| path :='/Users/kilon/Pictures/wallpapers' asFileReference.
 path exists ifTrue: [ files := path allChildren select:[ :each | (each basename endsWith: 'jpg') | (each basename endsWith:'png')] ].
  Smalltalk image os isMacOSX ifTrue: [World backgroundImage: (Form fromFileNamed: files atRandom fullName) layout: #scaled.].
 ]}]
