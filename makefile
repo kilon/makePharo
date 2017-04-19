@@ -2,6 +2,7 @@ Ephestos/Ephestos.image:
 	mkdir Ephestos
 	cd Ephestos; wget -O- get.pharo.org/alpha+vmLatest | bash
 	mv Ephestos/Pharo.image Ephestos/Ephestos.image
+	mv Ephestos/Pharo.changes Ephestos/Ephestos.changes
 	Ephestos/pharo-ui  Ephestos/Ephestos.image
 
 clean:
